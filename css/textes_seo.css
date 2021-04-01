@@ -1,0 +1,44 @@
+/* Fichier destin� � �tre partag� sur l'ensemble des sites qui utilisent le texte seo */
+
+.texte_seo_body
+{
+    color: block !important;
+    font-size: 12px !important;
+}
+
+.seo_img_gauche {
+    margin-right: 20px;
+    float: left;
+}
+
+.seo_img_droite {
+    margin-left: 20px;
+    float: right;
+}
+
+.seo_img_centre {
+    margin : 0 auto;
+    display : block;
+}
+
+.seo_img_gauche,
+.seo_img_droite,
+.seo_img_centre {
+    max-width: 90vw;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+    #guide-guide #listing_map {
+        max-height: 50vh;
+    }
+
+    .seo_img_gauche,
+    .seo_img_droite,
+    .seo_img_centre {
+        margin: 10px auto;
+        display: block;
+        float: none;
+    }
+}
